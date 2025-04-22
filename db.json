@@ -1,15 +1,57 @@
 {
   "vendors": [
-    { "id": 1, "name": "Adventure Co." },
-    { "id": 2, "name": "ExploreMore Ltd." }
+    {
+      "id": 1,
+      "name": "Nomad Travels"
+    },
+    {
+      "id": 2,
+      "name": "Global Trekkers"
+    },
+    {
+      "id": 3,
+      "name": "Sunset Adventures"
+    },
+    {
+      "id": 4,
+      "name": "Wanderlust Inc."
+    }
   ],
   "tours": [
-    { "id": 1, "name": "Mountain Expedition", "location": "Himalayas" },
-    { "id": 2, "name": "Desert Safari", "location": "Rajasthan" }
+    {
+      "id": 1,
+      "name": "Northern Lights Hunt",
+      "location": "Iceland"
+    },
+    {
+      "id": 2,
+      "name": "Jungle Safari",
+      "location": "Amazon Rainforest"
+    },
+    {
+      "id": 3,
+      "name": "Cultural Tour",
+      "location": "Kyoto"
+    },
+    {
+      "id": 4,
+      "name": "Sailing Escape",
+      "location": "Greek Islands"
+    }
   ],
   "vendortours": [
-    { "id": 1, "vendorId": 1, "tourId": 1 },
-    { "id": 2, "vendorId": 2, "tourId": 2 }
+    {
+      "id": 1,
+      "vendorId": 1,
+      "tourId": 1,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 2,
+      "vendorId": 2,
+      "tourId": 2,
+      "status": "ACTIVE"
+    }
   ],
   "tickets": [
     {
