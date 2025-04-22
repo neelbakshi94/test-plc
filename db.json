@@ -1,0 +1,30 @@
+{
+  "vendors": [
+    { "id": 1, "name": "Adventure Co." },
+    { "id": 2, "name": "ExploreMore Ltd." }
+  ],
+  "tours": [
+    { "id": 1, "name": "Mountain Expedition", "location": "Himalayas" },
+    { "id": 2, "name": "Desert Safari", "location": "Rajasthan" }
+  ],
+  "vendortours": [
+    { "id": 1, "vendorId": 1, "tourId": 1 },
+    { "id": 2, "vendorId": 2, "tourId": 2 }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "vendorId": 1,
+      "tourId": 1,
+      "productName": "Mountain Adventure Package",
+      "listingType": "new_listing"
+    },
+    {
+      "id": 2,
+      "vendorId": 2,
+      "tourId": 2,
+      "productName": "Desert Safari Deluxe",
+      "listingType": "multi_variant"
+    }
+  ]
+}
