@@ -39,18 +39,36 @@
       "location": "Greek Islands"
     }
   ],
-  "vendortours": [
+  "cancellationPolicy": [
     {
       "id": 1,
       "vendorId": 1,
       "tourId": 1,
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "cancellationBeforeMinutes": 30
     },
     {
       "id": 2,
       "vendorId": 2,
       "tourId": 2,
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "cancellationBeforeMinutes": null
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "vendorId": 1,
+      "tourId": 1,
+      "phone": "+91999999999",
+      "email": "abc@headout.com"
+    },
+    {
+      "id": 1,
+      "vendorId": 1,
+      "tourId": 1,
+      "phone": "+919999998888",
+      "email": "def@headout.com"
     }
   ],
   "tickets": [
